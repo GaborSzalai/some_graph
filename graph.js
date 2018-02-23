@@ -21,7 +21,7 @@ document.body.appendChild(menuElement);
 
 
 var chart = new NetChart({
-container: document.getElementById("chart"),
+container: document.getElementById("demo"),
 
 
 events: {
