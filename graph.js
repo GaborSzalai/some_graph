@@ -1,4 +1,5 @@
-var chartContainer = document.getElementById("demo");
+var chartContainer = document.createElement("div");
+chartContainer.id = 'demo'
 
 var menuElement = document.createElement("div");
 
