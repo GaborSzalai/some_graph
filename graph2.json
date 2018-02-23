@@ -13,6 +13,6 @@
 {"IngredientName":"VAS Experience","ShortName":"VAS Experience","Stage":"1","id":"-8292973307544731651","loaded":true},
 {"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"-8292973307544731632","loaded":true}
 ],
-"links":
-{"id":"l1","to":"-8292973307544731632","from":"-8292973307544731642"}
+"links":[
+{"id":"l1","to":"-8292973307544731632","from":"-8292973307544731642"}]
 }
