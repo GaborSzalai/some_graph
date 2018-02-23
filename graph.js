@@ -73,7 +73,7 @@ shadowColor: "rgba(39,156,254,0.7)",
 }
 },
 data: {
-url: "graph2.json"
+url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
 },
 layout: {
 nodeSpacing: 30
