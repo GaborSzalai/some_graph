@@ -71,7 +71,8 @@ textStyle: { fillColor: "white" },
 backgroundStyle: { 
 	fillColor: "#09c", 
 	lineColor: "transparent",
-}]
+}
+}];
 node.image = node.data.ShortName+".png";
 
 },
