@@ -62,6 +62,16 @@ nodeSpacing: 30
 style: {
 nodeStyleFunction: function(node) {
 node.label = node.data.IngredientName;
+node.items = [
+{
+text: "Score: " + node.data.score,
+aspectRatio: 0, //force single line
+px: 0, py: -1, x: 0, y: -5,
+textStyle: { fillColor: "white" },
+backgroundStyle: { 
+	fillColor: "#09c", 
+	lineColor: "transparent",
+}]
 node.image = node.data.ShortName+".png";
 
 },
@@ -133,5 +143,4 @@ mode: "manual",
 initialNodes:["-8292973307544731642"] },
 theme: NetChart.themes.dark
 });
-
 
