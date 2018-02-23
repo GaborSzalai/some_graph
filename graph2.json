@@ -15,16 +15,16 @@
 {"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"n1.1","loaded":true,"Score":4.912}
 ],
 "links":[
-{"to":"n0","from":"n1"},
-{"to":"n0","from":"n2"},
-{"to":"n0","from":"n3"},
-{"to":"n0","from":"n4"},
-{"to":"n0","from":"n5"},
-{"to":"n0","from":"n6"},
-{"to":"n0","from":"n7"},
-{"to":"n0","from":"n8"},
-{"to":"n0","from":"n9"},
-{"to":"n0","from":"n10"},
-{"to":"n1","from":"n1.1"}
+{"id"="e1","to":"n0","from":"n1"},
+{"id"="e2","to":"n0","from":"n2"},
+{"id"="e3","to":"n0","from":"n3"},
+{"id"="e4","to":"n0","from":"n4"},
+{"id"="e5","to":"n0","from":"n5"},
+{"id"="e6","to":"n0","from":"n6"},
+{"id"="e7","to":"n0","from":"n7"},
+{"id"="e8","to":"n0","from":"n8"},
+{"id"="e9","to":"n0","from":"n9"},
+{"id"="e10","to":"n0","from":"n10"},
+{"id"="e11","to":"n1","from":"n1.1"}
 ]
 }
