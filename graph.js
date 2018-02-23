@@ -1,5 +1,5 @@
 var chartContainer = document.createElement("div");
-chartContainer.id = 'demo'
+chartContainer.id = 'demo';
 document.body.appendChild(chartContainer)
 
 
@@ -18,7 +18,7 @@ document.body.appendChild(menuElement);
 
 
 var chart = new NetChart({
-container: document.getElementById("chartContainer"),
+container: document.getElementById("demo"),
 
 
 events: {
