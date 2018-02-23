@@ -65,7 +65,7 @@ node.items = [
 text: "Score: " + node.data.Score,
 aspectRatio: 0, //force single line
 px: 0, py: -1, x: 0, y: -5,
-textStyle: { fillColor: "white" },
+textStyle: { fillColor: "white",font:"10px Arial"},
 backgroundStyle: { 
 	fillColor: "#09c", 
 	lineColor: "transparent",
@@ -131,8 +131,6 @@ layout: {
 
 mode: "radial",
 nodeSpacing: 45
-
-
 
 },
 
