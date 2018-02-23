@@ -11,10 +11,8 @@
 {"IngredientName":"Service Usage","ShortName":"Service Usage","Stage":"1","id":"-8292973307544731649","loaded":true},
 {"IngredientName":"Social Experience","ShortName":"Social Experience","Stage":"1","id":"-8292973307544731650","loaded":true},
 {"IngredientName":"VAS Experience","ShortName":"VAS Experience","Stage":"1","id":"-8292973307544731651","loaded":true},
-
-{"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"-8292973307544731632","loaded":true},
+{"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"-8292973307544731632","loaded":true}
 ],
-
 "links":
 {"to":"-8292973307544731632","from":"-8292973307544731642"}
 }
