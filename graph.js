@@ -142,7 +142,7 @@ nodeSpacing: 45
 
 navigation: { 
 mode: "manual",
-initialNodes:["n1","n2","n3","n4","n5","n6","n7","n8","n9","n10"] },
+initialNodes:["n0","n1","n2","n3","n4","n5","n6","n7","n8","n9","n10"] },
 theme: NetChart.themes.dark
 });
 
