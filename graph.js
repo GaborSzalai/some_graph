@@ -13,6 +13,7 @@ menuElement.style.background = "#d8ebf2";
 menuElement.style.border = "1px solid #09c";
 menuElement.style.padding = "10px";
 menuElement.style.boxShadow="5px 5px 5px #227192"
+menuElement.innerHTML = "Hello";
 
 document.body.appendChild(menuElement);
 
