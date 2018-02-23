@@ -61,7 +61,6 @@ nodeSpacing: 30
 },
 style: {
 nodeStyleFunction: function(node) {
-node.aura = node.data.auras;
 node.label = node.data.IngredientName;
 node.image = node.data.ShortName+".png";
 
