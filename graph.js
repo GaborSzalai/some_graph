@@ -1,6 +1,6 @@
 var chartContainer = document.createElement("div");
 chartContainer.id = 'demo'
-document.body.appendChild('chartContainer')
+document.body.appendChild(chartContainer)
 
 
 var menuElement = document.createElement("div");
