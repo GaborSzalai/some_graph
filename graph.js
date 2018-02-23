@@ -140,7 +140,7 @@ nodeSpacing: 45
 
 navigation: { 
 mode: "manual",
-initialNodes: ["-8292973307544731642"] },
+initialNodes: {["-8292973307544731642"] },
 theme: NetChart.themes.dark
 });
 
