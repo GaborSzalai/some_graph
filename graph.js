@@ -57,6 +57,7 @@ data: {
 url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
 },
 layout: {
+mode:"radial",
 nodeSpacing: 30
 },
 style: {
@@ -64,7 +65,7 @@ nodeStyleFunction: function(node) {
 node.label = node.data.IngredientName;
 node.items = [
 {
-text: "Score: " + node.data.score,
+text: "Score: " + node.data.Score,
 aspectRatio: 0, //force single line
 px: 0, py: -1, x: 0, y: -5,
 textStyle: { fillColor: "white" },
