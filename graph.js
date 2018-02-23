@@ -59,20 +59,6 @@ showInLegend: true,
 shadowBlur: 35
 },
 style: {
-
-"Targeting": {
-fillColor: "rgba(53,135,136,0.3)",
-shadowColor: "rgba(53,135,136,0.7)",
-},
-"Profiling": {
-fillColor: "rgba(111,82,184,0.6)",
-shadowColor: "rgba(111,82,184,0.6)",
-},
-"Happiness": {
-fillColor: "rgba(39,156,254,0.7)",
-shadowColor: "rgba(39,156,254,0.7)",
-}
-}
 },
 data: {
 url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
@@ -83,7 +69,7 @@ nodeSpacing: 30
 style: {
 nodeStyleFunction: function(node) {
 node.aura = node.data.auras;
-node.label = node.data.ProjectName;
+node.label = node.data.IngredientName;
 node.image = node.data.ShortName+".png";
 
 },
@@ -152,7 +138,7 @@ nodeSpacing: 45
 
 navigation: { 
 mode: "manual",
-initialNodes: ["-4962768464952426496"] },
+initialNodes: ["-8292973307544731642"] },
 theme: NetChart.themes.dark
 });
 
