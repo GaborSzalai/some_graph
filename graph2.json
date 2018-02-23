@@ -15,7 +15,7 @@
 {"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"n1.1","loaded":true,"Score":4.912}
 ],
 "links":[
-{"id"="e1","to":"n0","from":"n1"},
+{"id":"e1","to":"n0","from":"n1"},
 {"id":"e2","to":"n0","from":"n2"},
 {"id":"e3","to":"n0","from":"n3"},
 {"id":"e4","to":"n0","from":"n4"},
