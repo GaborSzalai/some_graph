@@ -14,5 +14,5 @@
 {"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"-8292973307544731632","loaded":true}
 ],
 "links":
-{"to":"-8292973307544731632","from":"-8292973307544731642"}
+{"id":"l1","to":"-8292973307544731632","from":"-8292973307544731642"}
 }
