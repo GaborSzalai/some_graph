@@ -1,7 +1,7 @@
 
 
 var c_container = document.createElement("div");
-c.id = 'demo'
+c_container.id = 'demo'
 
 var menuElement = document.createElement("div");
 
