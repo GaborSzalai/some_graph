@@ -1,6 +1,7 @@
 {
 "nodes":[
 
+{"IngredientName":"HI Score","ShortName":"HI","Stage":"1","id":"n0","loaded":true,"Score":4.860},
 {"IngredientName":"Campaign and Promotion Experience","ShortName":"Campaign & Promo","Stage":"1","id":"n1","loaded":true,"Score":4.912},
 {"IngredientName":"Customer Engagement","ShortName":"Customer Engagement","Stage":"1","id":"n2","loaded":true,"Score":4.101},
 {"IngredientName":"Customer Service and Outbound Sales Experience","ShortName":"CS & Outbound Sales","Stage":"1","id":"n3","loaded":true,"Score":5.015},
@@ -14,6 +15,16 @@
 {"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"n1.1","loaded":true,"Score":4.912}
 ],
 "links":[
-{"id":"l1","to":"n1.1","from":"n1"}
+{"to":"n0","from":"n1"},
+{"to":"n0","from":"n2"},
+{"to":"n0","from":"n3"},
+{"to":"n0","from":"n4"},
+{"to":"n0","from":"n5"},
+{"to":"n0","from":"n6"},
+{"to":"n0","from":"n7"},
+{"to":"n0","from":"n8"},
+{"to":"n0","from":"n9"},
+{"to":"n0","from":"n10"},
+{"to":"n1","from":"n1.1"}
 ]
 }
