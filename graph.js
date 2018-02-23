@@ -56,10 +56,7 @@ style: { fillColor: "rgba(14,33,40,0.9)" }
 data: {
 url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
 },
-layout: {
-mode:"radial",
-nodeSpacing: 30
-},
+
 style: {
 nodeStyleFunction: function(node) {
 node.label = node.data.IngredientName;
