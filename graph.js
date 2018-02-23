@@ -1,5 +1,7 @@
 var chartContainer = document.createElement("div");
 chartContainer.id = 'demo'
+document.body.appendChild('chartContainer')
+
 
 var menuElement = document.createElement("div");
 
@@ -155,5 +157,4 @@ initialNodes: ["-4962768464952426496"] },
 theme: NetChart.themes.dark
 });
 
-document.body.appendChild('chartContainer')
 
