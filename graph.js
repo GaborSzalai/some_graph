@@ -52,16 +52,6 @@ height: 500,
 style: { fillColor: "rgba(14,33,40,0.9)" }
 },
 
-auras: {
-cellSize: 20,
-overlap: true,
-enabled: true,
-defaultStyle: {
-showInLegend: true,
-shadowBlur: 35
-},
-style: {
-},
 data: {
 url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
 },
