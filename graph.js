@@ -154,3 +154,6 @@ mode: "manual",
 initialNodes: ["-4962768464952426496"] },
 theme: NetChart.themes.dark
 });
+
+document.body.appendChild('chartContainer')
+
