@@ -1,7 +1,3 @@
-var chartContainer = document.createElement("div");
-chartContainer.id = 'chart';
-document.body.appendChild(chartContainer)
-
 
 
 
