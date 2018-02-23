@@ -1,18 +1,18 @@
 {
 "nodes":[
 
-{"IngredientName":"HI Score","ShortName":"HI","id":"n0","Score":4.860},
-{"IngredientName":"Campaign and Promotion Experience","ShortName":"Campaign & Promo","id":"n1","Score":4.912},
-{"IngredientName":"Customer Engagement","ShortName":"Customer Engagement","id":"n2","Score":4.101},
-{"IngredientName":"Customer Service and Outbound Sales Experience","ShortName":"CS & Outbound Sales","id":"n3","Score":5.015},
-{"IngredientName":"Network Experience","ShortName":"Network Experience","id":"n4","Score":4.516},
-{"IngredientName":"Personal Assistant","ShortName":"Personal Assistant","id":"n5","Score":4.992},
-{"IngredientName":"Retail Shopping Experience","ShortName":"Retail Shoppping","id":"n6","Score":4.830},
-{"IngredientName":"Roaming Experience","ShortName":"Roaming","id":"n7","Score":5.177},
-{"IngredientName":"Service Usage","ShortName":"Service Usage","id":"n8","Score":5.317},
-{"IngredientName":"Social Experience","ShortName":"Social Experience","id":"n9","Score":3.901},
-{"IngredientName":"VAS Experience","ShortName":"VAS Experience","id":"n10","Score":4.743},
-{"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"n1.1","Score":4.912}
+{"IngredientName":"HI Score","ShortName":"HI","id":"n0","loaded":true,"Score":4.860},
+{"IngredientName":"Campaign and Promotion Experience","ShortName":"Campaign & Promo","id":"n1","loaded":true,"Score":4.912},
+{"IngredientName":"Customer Engagement","ShortName":"Customer Engagement","id":"n2","loaded":true,"Score":4.101},
+{"IngredientName":"Customer Service and Outbound Sales Experience","ShortName":"CS & Outbound Sales","id":"n3","loaded":true,"Score":5.015},
+{"IngredientName":"Network Experience","ShortName":"Network Experience","id":"n4","loaded":true,"Score":4.516},
+{"IngredientName":"Personal Assistant","ShortName":"Personal Assistant","id":"n5","loaded":true,"Score":4.992},
+{"IngredientName":"Retail Shopping Experience","ShortName":"Retail Shoppping","id":"n6","loaded":true,"Score":4.830},
+{"IngredientName":"Roaming Experience","ShortName":"Roaming","id":"n7","loaded":true,"Score":5.177},
+{"IngredientName":"Service Usage","ShortName":"Service Usage","id":"n8","loaded":true,"Score":5.317},
+{"IngredientName":"Social Experience","ShortName":"Social Experience","id":"n9","loaded":true,"Score":3.901},
+{"IngredientName":"VAS Experience","ShortName":"VAS Experience","id":"n10","loaded":true,"Score":4.743},
+{"IngredientName":"Customer Response: open & click","ShortName":"Customer Response:open, click","Stage":"2","id":"n1.1","loaded":true,"Score":4.912}
 ],
 "links":[
 {"to":"n0","from":"n1"},
