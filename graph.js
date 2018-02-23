@@ -2,6 +2,10 @@ var chartContainer = document.createElement("div");
 chartContainer.id = 'chart';
 document.body.appendChild(chartContainer)
 
+var info = document.createElement("div");
+chartContainer.id = 'info';
+document.body.appendChild(info)
+
 
 var menuElement = document.createElement("div");
 
