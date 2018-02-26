@@ -18,15 +18,6 @@ menuElement.innerHTML = "Hello";
 
 document.body.appendChild(menuElement);
 
-var colors = ["#c45ae1","#bc46dd","#b531d9","#ae1dd6","#9f1bc3","#8f18b0","#7f169c","#6f1389","#5f1075","#500e62"];
-
-function palette(min, max) {
-    var d = (max-min)/2;
-    return d3.scale.threshold()
-        .range(['#c45ae1','#bc46dd'])
-        .domain([min+1*d,min+2*d]);
-}
-
 
 var chart = new NetChart({
 container: document.getElementById("demo"),
@@ -59,7 +50,7 @@ event.preventDefault();
 
 area: {
 height: 500,
-style: { fillColor: "#001931" }
+style: { fillColor: "rgba(14,33,40,0.9)" }
 },
 
 data: {
@@ -68,21 +59,15 @@ url: "https://rawgit.com/GaborSzalai/some_graph/master/graph2.json"
 
 style: {
 nodeStyleFunction: function(node) {
-
-node.fillColor=d3.interpolatePuRd(node.data.Score/10);
 node.label = node.data.IngredientName;
-node.labelStyle.textStyle.font = "12px Helvetica";
-            node.labelStyle.textStyle.fillColor = "#fff";
-            node.labelStyle.backgroundStyle.fillColor = "#001931";
-			node.labelStyle.backgroundStyle.lineColor = "#39bcf3";
 node.items = [
 {
-text: "" + node.data.Score,
+text: "Score: " + node.data.Score,
 aspectRatio: 0, //force single line
-px: 0, py: 0, x: 0, y: -5,
-textStyle: { fillColor: "white",font:"12px Arial"},
+px: 0, py: -1, x: 0, y: -5,
+textStyle: { fillColor: "white",font:"10px Arial"},
 backgroundStyle: { 
-	fillColor: "", 
+	fillColor: "#09c", 
 	lineColor: "transparent",
 }
 }];
@@ -103,9 +88,16 @@ textStyle:{font:"7px Arial"}
 
 },
 
+
+nodeLabel:{
+textStyle:{font:"12px Arial"}
+
+},
+
 node: {
 radius: 20,
 imageCropping: false,
+fillColor: "rgba(14,33,40,0.9)",
 shadowBlur: 15,
 shadowColor: "#262626"
 },
