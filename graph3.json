@@ -1,7 +1,7 @@
 {
 "nodes":[
 
-{"IngredientName":"HI Score","ShortName":"HI","id":"n0","loaded":true,"Score":4.860},
+{"IngredientName":"HI Score","ShortName":"HI","id":"n0","loaded":true,"Score":4.860,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/98b8713f/HI%20Graph/HI.png"},
 {"IngredientName":"Campaign and Promotion Experience","ShortName":"Campaign & Promo","id":"n1","loaded":true,"Score":4.912},
 {"IngredientName":"Customer Engagement","ShortName":"Customer Engagement","id":"n2","loaded":true,"Score":4.101},
 {"IngredientName":"Customer Service and Outbound Sales Experience","ShortName":"CS & Outbound Sales","id":"n3","loaded":true,"Score":5.015},
