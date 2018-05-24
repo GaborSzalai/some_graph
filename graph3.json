@@ -8,7 +8,7 @@
 {"IngredientName":"Network Experience","ShortName":"Network Experience","id":"n4","loaded":true,"Score":4.516,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/network.png"},
 {"IngredientName":"Personal Assistant","ShortName":"Personal Assistant","id":"n5","loaded":true,"Score":4.992,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/assistant.png"},
 {"IngredientName":"Retail Shopping Experience","ShortName":"Retail Shoppping","id":"n6","loaded":true,"Score":4.830,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/retail.png"},
-{"IngredientName":"Roaming Experience","ShortName":"Roaming","id":"n7","loaded":true,"Score":5.177,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/roamin.png"},
+{"IngredientName":"Roaming Experience","ShortName":"Roaming","id":"n7","loaded":true,"Score":5.177,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/roaming.png"},
 {"IngredientName":"Service Usage","ShortName":"Service Usage","id":"n8","loaded":true,"Score":5.317,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/usage.png"},
 {"IngredientName":"Social Experience","ShortName":"Social Experience","id":"n9","loaded":true,"Score":3.901,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/social.png"},
 {"IngredientName":"VAS Experience","ShortName":"VAS Experience","id":"n10","loaded":true,"Score":4.743,"image":"https://cdn.rawgit.com/GaborSzalai/some_graph/eba7bb20/HI%20Graph/vas.png"},
