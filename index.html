@@ -1,0 +1,127 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/3d-force-graph@1.32.4/dist/3d-force-graph.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="GaugeMeter.js"></script>
+  <script src="js/three.js"></script>
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="info"><br>Select a Node</div>
+<div id="gauge" 
+     data-percent="60"
+	 data-style="Arch"	 
+     data-label="of 0 to 10"
+	 data-size="100"
+	 data-label_color="White"
+	 >
+</div>
+
+ <div id="3d-graph"></div>
+  <script>
+	const elem = document.getElementById('3d-graph');
+	const Graph = ForceGraph3D()
+      (elem)
+        .jsonUrl('https://raw.githubusercontent.com/GaborSzalai/some_graph/master/graph3.json')
+		.backgroundColor('#103443')
+		//.d3Force("charge", d3.forceManyBody().theta(0.5).strength(-1))
+		.d3Force('collide', d3.forceCollide().radius(10))
+		.cameraPosition({ z: 200})
+		.linkColor(link => {
+			return link.color
+			})
+		.linkDirectionalParticles(5)
+        .linkDirectionalParticleSpeed(0.005)
+        .nodeLabel(node => {
+			var label= node.IngredientName+'<br>'+node.Score;
+			return label;
+			})
+		.nodeThreeObject(node => {
+			var spriteMap = new THREE.TextureLoader().load(node.image);
+			var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, color: 0xffffff } );
+			var sprite = new THREE.Sprite(spriteMaterial );
+			sprite.scale.set(12, 12, 1);
+			//if (node.id  == 'n0') {
+			return sprite;
+			//}else {return false;}
+		})
+		
+        .nodeAutoColorBy('group')
+        .onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
+        .onNodeClick(node => {
+          // Aim at node from outside it
+		  
+		  document.getElementById("info").innerHTML = '<br>'+node.IngredientName;
+		  $("#gauge").data("percent", Math.ceil(node.Score*10));
+		  $("#gauge").data("text", String(node.Score));
+		  $("#gauge").empty();
+		  $("#gauge").gaugeMeter();
+		  
+		  const distance = 100;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+          Graph.cameraPosition(
+            { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+            node, // lookAt ({ x, y, z })
+            1500  // ms transition duration
+          );
+		 
+           
+        });
+  </script>
+  
+  <style>
+#info {
+                              text-align: center;
+                              font-size: 12px;
+							  font-family: "Exo 2";
+                              display: inline;
+                              position: absolute;
+                              left: 35px;
+                              top: 35px;
+                              width: 170px;
+                              height: 275px;
+                              background-color: #154559ff;
+							  color: white;
+                              border: 1px solid #39bcf3;
+                              padding: 1px;
+                              z-index: 99;
+                              box-shadow: 3px 3px 3px #227192
+                              }
+							  
+#gauge {
+                              text-align: center;
+                              font-size: 12px;
+							  font-family: "Exo 2";
+                              display: inline;
+                              position: absolute;
+                              left: 65px;
+                              top: 85px;
+                              background-color: #154559ff;
+							  color: white;
+                              padding: 1px;
+                              z-index: 100;
+                              }
+							  
+#gauge SPAN, #gauge B {
+  width: 54%;
+  position: Absolute;
+  text-align: Center;
+  display: Inline-Block;
+  color: white;
+  font-weight: 100;
+  font-family: "Exo 2";
+  overflow: Hidden;
+  white-space: NoWrap;
+  text-overflow: Ellipsis;
+  margin: -5 23%;
+}
+
+							  
+  </style>
+  
+</body>
